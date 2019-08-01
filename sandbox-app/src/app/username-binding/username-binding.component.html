@@ -1,0 +1,10 @@
+
+<input type="text" class="form-control" [(ngModel)]="username">
+
+<p>
+  {{username}}
+</p>
+
+<Button class="btn btn-primary" [disabled]='getClickable()' (click)='resetClicked()'> 
+  Reset 
+</Button>
